@@ -4,7 +4,7 @@ Pour toi qui attends tes vacances avec impatience, ce petit compteur est fait po
 
 *volume up !*
 
-![the countdown]: src/img/final_countdown.gif 
+![the countdown](src/img/final_countdown.gif)
 
 [Unleash the final countdown !](https://www.google.com)
 
