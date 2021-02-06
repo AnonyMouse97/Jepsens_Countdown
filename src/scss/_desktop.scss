@@ -1,0 +1,14 @@
+section{
+	width: 70%;
+	.countdown{
+		flex-direction:row;
+		justify-content: space-around;
+		.count{
+			width: 70%;
+		}
+		&>div{
+			width: 30%;
+			margin: 0 auto;
+		}
+	}
+}

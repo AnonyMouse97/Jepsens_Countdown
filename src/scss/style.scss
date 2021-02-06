@@ -1,0 +1,15 @@
+// import basics
+@import '_reset.scss';
+@import '_font_face.scss';
+@import '_vars.scss';
+
+// import style Sheets
+
+@import '_mobile.scss';
+@media (min-width: 500px){
+	@import '_tablet.scss';	
+}
+@media (min-width: 1025px){
+	@import '_desktop.scss';	
+}
+
