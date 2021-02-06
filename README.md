@@ -6,6 +6,6 @@ Pour toi qui attends tes vacances avec impatience, ce petit compteur est fait po
 
 ![the countdown](src/img/final_countdown.gif)
 
-[Unleash the final countdown !](https://www.google.com)
+[Unleash the final countdown !](https://anonymouse97.github.io/Jepsens_Countdown/)
 
 *N'hésite pas à suggérer des modifications/améliorations*
