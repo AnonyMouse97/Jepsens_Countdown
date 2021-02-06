@@ -47,13 +47,13 @@ table {
 
 @font-face {
   font-family: "Press_start";
-  src: url("../../font/Press_Start_2P/PressStart2P-Regular.ttf"); }
+  src: url("../../src/font/Press_Start_2P/PressStart2P-Regular.ttf"); }
 
 body {
   font-family: "Press_start", sans-serif; }
 
 body {
-  background: url("../../img/space_backgound.png");
+  background: url("../../src/img/space_backgound.png");
   background-size: cover;
   height: 100vh; }
 
@@ -97,6 +97,20 @@ section {
       padding-top: 20px; }
       section .countdown div p {
         padding-bottom: 10px; }
+
+.audio #song {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 64px;
+  width: 64px;
+  background-color: transparent;
+  border: none;
+  background-color: white;
+  background: url("../img/UI_sprite.png") no-repeat;
+  background-position: bottom -64px left -448px; }
+  .audio #song:hover {
+    cursor: pointer; }
 
 @media (min-width: 500px) {
   section {
