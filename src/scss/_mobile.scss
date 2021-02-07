@@ -1,7 +1,8 @@
+@import '_backgroundAnimation.scss';
 body{
 	background: url('../../src/img/space_backgound.png');
 	background-size: cover;
-	height: 100vh;
+	//height: 100vh;
 }
 
 section{
@@ -24,6 +25,11 @@ section{
 			margin-top: 15px;
 			font-size: 1.3em;
 			text-shadow: 2px 2px $orange;
+		}
+		#version{
+			padding-top: 20px;
+			color: white;
+			font-size: .8em;
 		}
 	}
 	.countdown{

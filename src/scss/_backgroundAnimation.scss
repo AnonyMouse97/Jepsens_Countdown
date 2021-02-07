@@ -1,0 +1,33 @@
+.moonSprite{
+	height: 192px;
+	width: 192px;
+	background: url('../img/Moon_sprite.png') no-repeat; 
+	background-size: 11520px 192px;
+    image-rendering: crisp-edges;
+	animation: moon 5s steps(60) infinite;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	z-index: -1;
+}
+
+@keyframes moon{
+	100%{background-position: -11520px; }
+}
+
+.earthSprite{
+	height: 300px;
+	width: 300px;
+	background: url('../img/earth_sprite.png') no-repeat; 
+	//border-radius: 50%;
+	background-size: 15000px 300px;
+    image-rendering: crisp-edges;
+	animation: earth 5s steps(50) infinite;
+	position: absolute;
+	top: 300px;
+	left: -150px;
+	z-index: -1;
+}
+@keyframes earth{
+	100%{background-position: -15000px; }
+}
