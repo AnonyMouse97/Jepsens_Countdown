@@ -9,30 +9,42 @@
 </head>
 <body>
 	
-	<section>
+	<section id="main_section">
 		<div class="headings">
 			<h1>Jepsen's Countdown</h1>
-			<h2>Time before first holiday</h2>
-			<p id="version">v0.2</p>
-		</div>		
-		<div class="countdown">
+			<p id="version">v0.3</p>
+		</div>
+
+		<div class="progressBar">
+			<h2>Becode OverAll progression</h2>
+			<div class="bar">
+				<div class="progress" style="width: 0%;;"></div>
+			</div>
+			<p class="percentage">0%</p>
+		</div>
+
+		<div class="countdown" id="countdown_1">
+			<h2>Next holidays in :</h2>
 			<div class="days">
 				<p>Days :</p>
-				<div class="count" id="days_count">00</div>
+				<div class="count days_count">00</div>
 			</div>
 			<div class="hours">
 				<p>Hours :</p>
-				<div class="count" id="hours_count">00</div>
+				<div class="count hours_count">00</div>
 			</div>
 			<div class="minutes">
 				<p>Mins :</p>
-				<div class="count" id="minutes_count">00</div>
+				<div class="count minutes_count">00</div>
 			</div>
 			<div class="seconds">
 				<p>Secs :</p>
-				<div class="count" id="seconds_count">00</div>
+				<div class="count seconds_count">00</div>
 			</div>
 		</div>
+
+
+
 		<div class="audio">
 			<button id="song"></button>
 			<audio id="audio">
@@ -44,5 +56,7 @@
 		<div class="parallax earthSprite"></div>
 	</section>
 	<script src="src/js/script.js"></script>
+	<script src="src/js/sound.js"></script>
+	<script src="src/js/counter.js"></script>
 </body>
 </html>

@@ -68,25 +68,28 @@ body {
   100% {
     background-position: -11520px; } }
 
-.earthSprite {
-  height: 300px;
-  width: 300px;
-  background: url("../img/earth_sprite.png") no-repeat;
-  background-size: 15000px 300px;
-  image-rendering: crisp-edges;
-  animation: earth 5s steps(50) infinite;
-  position: absolute;
-  top: 300px;
-  left: -150px;
-  z-index: -1; }
-
-@keyframes earth {
-  100% {
-    background-position: -15000px; } }
-
+/* .earthSprite{
+	height: 300px;
+	width: 300px;
+	background: url('../img/earth_sprite.png') no-repeat; 
+	//border-radius: 50%;
+	background-size: 15000px 300px;
+    image-rendering: crisp-edges;
+	animation: earth 5s steps(50) infinite;
+	position: absolute;
+	top: 300px;
+	left: -150px;
+	z-index: -1;
+}
+@keyframes earth{
+	100%{background-position: -15000px; }
+} */
 body {
   background: url("../../src/img/space_backgound.png");
-  background-size: cover; }
+  background-size: cover;
+  height: 100%;
+  bottom: 0;
+  overflow-x: hidden; }
 
 section {
   width: 80%;
@@ -120,6 +123,9 @@ section {
     flex-direction: column;
     border: 5px solid #2e2c3b;
     text-shadow: 2px 2px #3e415f; }
+    section .countdown h2 {
+      color: white;
+      position: absolute; }
     section .countdown .count {
       padding: 15px;
       text-align: center;
@@ -129,9 +135,31 @@ section {
       text-shadow: 3px 3px #747d88;
       box-shadow: inset 5px 5px black; }
     section .countdown div {
-      padding-top: 20px; }
+      padding-top: 40px; }
       section .countdown div p {
         padding-bottom: 10px; }
+
+.progressBar {
+  background-color: #3b77a6;
+  box-shadow: inset 5px 5px #c4651c;
+  border: 5px solid #2e2c3b;
+  text-shadow: 2px 2px #3e415f;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f3c220; }
+  .progressBar h2, .progressBar p {
+    padding: 10px 0; }
+  .progressBar h2 {
+    text-align: center; }
+  .progressBar .bar {
+    background-color: #2e2c3b;
+    height: 30px;
+    width: 100%;
+    border: 5px solid #2e2c3b;
+    box-shadow: inset 5px 5px black; }
+    .progressBar .bar .progress {
+      background-color: #3b77a6;
+      height: 100%; }
 
 .audio #song {
   position: absolute;

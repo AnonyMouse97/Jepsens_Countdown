@@ -2,8 +2,12 @@
 body{
 	background: url('../../src/img/space_backgound.png');
 	background-size: cover;
-	//height: 100vh;
+	height: 100%;
+	bottom: 0;
+	overflow-x: hidden;
 }
+
+
 
 section{
 	width: 80%;
@@ -42,7 +46,10 @@ section{
 		flex-direction: column;
 		border: 5px solid $black;
 		text-shadow: 2px 2px $dark_blue;
-
+		h2{
+			color: white;
+			position: absolute;
+		}
 		.count{
 			padding: 15px;
 			text-align: center;
@@ -53,7 +60,7 @@ section{
 			box-shadow: inset 5px 5px black;
 		}
 		div{
-			padding-top: 20px;
+			padding-top: 40px;
 			p{
 			padding-bottom: 10px;
 			}
@@ -61,8 +68,34 @@ section{
 	}
 }
 
-.audio{
+.progressBar{
+	background-color: $blue;
+	box-shadow: inset 5px 5px $orange;
+	border: 5px solid $black;
+	text-shadow: 2px 2px $dark_blue;
+	padding: 20px;
+	margin: 20px 0;
+	background-color: $yellow;
+	h2, p{
+		padding: 10px 0;
+	}
+	h2{
+		text-align: center;
+	}
+	.bar{
+		background-color: $black;
+		height: 30px;
+		width: 100%;
+		border: 5px solid $black;
+		box-shadow: inset 5px 5px black;
+		.progress{
+			background-color: $blue;
+			height: 100%;
+		}
+	}
+}
 
+.audio{
 	#song{
 		position: absolute;
 		top: 10px;
