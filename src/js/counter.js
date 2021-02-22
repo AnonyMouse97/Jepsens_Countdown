@@ -42,6 +42,7 @@ function clone(id, title){
 clone('beCodeEnd', 'End of BeCode :');
 clone('fromStart', 'Time from start :')
 clone('samuel', 'Birthday of samuel in :');
+clone('laetitia', 'Bicentenaire of Laetitia in :');
 
 
 setInterval(function(){
@@ -49,6 +50,7 @@ setInterval(function(){
     counter(2021, 7, 23, 17, 'beCodeEnd');
     counter(2021, 5, 14, 0, 'samuel');
     counter(2021, 1, 5, 9, 'fromStart');
+    counter(2021, 3, 7, 0, 'laetitia')
 }, 1000);
 
 
