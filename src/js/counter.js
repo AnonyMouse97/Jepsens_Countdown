@@ -46,7 +46,6 @@ clone('fromStart', 'Time from start :')
 setInterval(function(){
     counter(2021, 4, 3, 17, 'countdown_1');
     counter(2021, 7, 23, 17, 'beCodeEnd');
-    counter(2021, 5, 14, 0, 'samuel');
 }, 1000);
 
 
